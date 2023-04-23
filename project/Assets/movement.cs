@@ -8,10 +8,18 @@ public class movement : MonoBehaviour
     public Animator animator;
     private Vector2 direction;
     private Rigidbody2D rb;
+    public static movement Instance;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (Instance != null)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        Instance = this;
+        GameObject.DontDestroyOnLoad(this.gameObject);
     }
 
     void Update()
