@@ -6,35 +6,52 @@ public class Pickup : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject slotButton;
+    public KeyCode take;
+    public bool coll;
+    public bool press;
 
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {            
-            for (int i = 0; i < inventory.slots.Length; i++)
+        {
+            coll = true;
+            if ((coll == true) && (press == true))
             {
-                if (inventory.isFull[i] == false)
+                for (int i = 0; i < inventory.slots.Length; i++)
                 {
-                    inventory.isFull[i] = true;
-                    Instantiate(slotButton, inventory.slots[i].transform);
-                    Destroy(gameObject);
-                    break;
+                    if (inventory.isFull[i] == false)
+                    {
+                        inventory.isFull[i] = true;
+                        Instantiate(slotButton, inventory.slots[i].transform);
+                        gameObject.SetActive(false);
+                        break;
+                    }
                 }
-            }  
+            }
         }
     }
+
     private void Update()
     {
+        if (coll == true)
+        {
+            if (Input.GetKeyDown(take))
+            {
+                press = true;
+            }
+        }
+
         if (inventory.isFull[1] == true)
         {
             Destroy(GameObject.Find("Attention"));
-            Destroy(GameObject.Find("Square1"));
-            Destroy(gameObject);
+            Destroy(GameObject.Find("exit-block"));
+            Destroy(GameObject.Find("FishingRod"));
+            Destroy(GameObject.Find("Bucket"));
         }
     }
 }

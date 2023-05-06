@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638177792823282124
-    m_Hash: 379741967
+      ticks: 638185543488806068
+    m_Hash: 3158308525
   m_LockFileStatus:
     m_FilePath: C:/Users/ollo5/Desktop/UnityGame/project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638177792823377021
-    m_Hash: 2803226166
+      ticks: 638185543768351941
+    m_Hash: 3281591326
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/ollo5/Desktop/UnityGame/project/Packages
-m_EditorVersion: 2021.3.20f1 (577897200b8b)
+m_EditorVersion: 2021.3.24f1 (cf10dcf7010d)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
@@ -112,6 +112,7 @@ m_ResolvedPackages:
     - 2.9.5
     - 3.0.0-pre.3
     - 3.0.0-pre.4
+    - 3.0.0-pre.5
     compatible:
     - 2.8.9
     - 2.9.0-pre.1
@@ -177,12 +178,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.8.9
     nextVersion: 
-- packageId: com.unity.collab-proxy@2.0.1
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 2.0.1
+  version: 2.0.3
   source: 1
-  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.collab-proxy@2.0.1
+  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -192,9 +193,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The package gives you the ability to use the Unity Version Control
-    in the Unity editor. To use Unity Version Control, a subscription is required.
-    Learn more about how you can get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -266,7 +267,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.1
     - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
@@ -300,16 +300,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638125977010000000
+  datePublishedTicks: 638158826940000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 2.0.3
     nextVersion: 
 - packageId: com.unity.feature.2d@1.0.0
   testable: 0
@@ -356,7 +356,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.9
+    version: 7.0.10
   - name: com.unity.2d.common
     version: 6.0.6
   - name: com.unity.2d.sprite
@@ -382,7 +382,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.psdimporter
     version: 6.0.7
   - name: com.unity.2d.spriteshape
-    version: 7.0.6
+    version: 7.0.7
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -390,7 +390,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 2.2.4
+    version: 2.2.5
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.ugui
@@ -417,12 +417,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.18
+- packageId: com.unity.ide.rider@3.0.20
   testable: 0
   isDirectDependency: 1
-  version: 3.0.18
+  version: 3.0.20
   source: 1
-  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.ide.rider@3.0.18
+  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.ide.rider@3.0.20
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -476,7 +476,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.18
     - 3.0.20
     - 3.0.21
     verified: 3.0.21
@@ -497,23 +496,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638088746970000000
+  datePublishedTicks: 638173205930000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
+    revision: b0b5d281f6e3a1b7e7c73939f5ed03dc0668bcc1
     path: 
   unityLifecycle:
-    version: 3.0.18
+    version: 3.0.20
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.17
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.17
+  version: 2.0.18
   source: 1
-  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
+  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -552,7 +551,6 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.17
     - 2.0.18
     verified: 2.0.18
   dependencies:
@@ -578,16 +576,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638059987360000000
+  datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 1f126893bfb18ea9661fb15771613e841467073c
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.17
+    version: 2.0.18
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -1023,6 +1021,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1035,6 +1034,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1045,7 +1045,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1115,6 +1115,7 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -3075,12 +3076,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.2d.animation@7.0.9
+- packageId: com.unity.2d.animation@7.0.10
   testable: 0
   isDirectDependency: 0
-  version: 7.0.9
+  version: 7.0.10
   source: 1
-  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.2d.animation@7.0.9
+  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.2d.animation@7.0.10
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3169,6 +3170,7 @@ m_ResolvedPackages:
     - 5.2.3
     - 5.2.4
     - 5.2.6
+    - 5.2.7
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
@@ -3206,7 +3208,6 @@ m_ResolvedPackages:
     - 10.0.0-pre.2
     - 10.0.0
     compatible:
-    - 7.0.9
     - 7.0.10
     verified: 7.0.10
   dependencies:
@@ -3252,16 +3253,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638035874810000000
-  documentationUrl: 
+  datePublishedTicks: 638140403120000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: aebc9b022b1d3ecdcc734e0ee8f139df3f3fe3dd
+    revision: 2dba3153b5c4ffa75993dfca0bd0df8cbc28809c
     path: 
   unityLifecycle:
-    version: 7.0.9
+    version: 7.0.10
     nextVersion: 
 - packageId: com.unity.2d.pixel-perfect@5.0.3
   testable: 0
@@ -3445,7 +3446,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.9
+    version: 7.0.10
   - name: com.unity.2d.common
     version: 6.0.6
   - name: com.unity.2d.sprite
@@ -3543,12 +3544,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@7.0.6
+- packageId: com.unity.2d.spriteshape@7.0.7
   testable: 0
   isDirectDependency: 0
-  version: 7.0.6
+  version: 7.0.7
   source: 1
-  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.2d.spriteshape@7.0.6
+  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.2d.spriteshape@7.0.7
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3646,14 +3647,13 @@ m_ResolvedPackages:
     - 10.0.0-pre.2
     - 10.0.0
     compatible:
-    - 7.0.6
     - 7.0.7
     verified: 7.0.7
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 6.0.4
+    version: 6.0.6
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -3698,16 +3698,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637958913420000000
-  documentationUrl: 
+  datePublishedTicks: 638140403060000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6b783c5dfb5a72d73e2b0a70d1caf4a367c58805
+    revision: 2dba3153b5c4ffa75993dfca0bd0df8cbc28809c
     path: 
   unityLifecycle:
-    version: 7.0.6
+    version: 7.0.7
     nextVersion: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
@@ -3760,12 +3760,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.4
+- packageId: com.unity.2d.tilemap.extras@2.2.5
   testable: 0
   isDirectDependency: 0
-  version: 2.2.4
+  version: 2.2.5
   source: 1
-  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.4
+  resolvedPath: C:\Users\ollo5\Desktop\UnityGame\project\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.5
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -3825,7 +3825,6 @@ m_ResolvedPackages:
     - 4.0.0-pre.3
     - 4.0.0
     compatible:
-    - 2.2.4
     - 2.2.5
     verified: 2.2.5
   dependencies:
@@ -3864,16 +3863,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638067887390000000
+  datePublishedTicks: 638140403150000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@2.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 2d8c9252168c8fe6d11dce4cfeb56d4d4ade3a70
+    revision: 0c2229262e21f917bff8c9669b96e2a3147428dd
     path: 
   unityLifecycle:
-    version: 2.2.4
+    version: 2.2.5
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0

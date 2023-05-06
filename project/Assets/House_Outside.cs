@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class House_Outside : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D ChangeScene)
+    void OnTriggerEnter2D(Collider2D ChangeScene)
     {
-        ChangeScene.transform.position = new Vector3(-5.998f, 5.068f, 0);
         SceneManager.LoadScene(0);
+        ChangeScene.transform.position = new Vector3(-5.45f, 5.04f, 0);
     }
 }
 
