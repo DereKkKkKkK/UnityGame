@@ -23,3 +23,6 @@ https://github.com/DereKkKkKkK/UnityGame/blob/main/screenshots/6.png
   3. Возможность подбирать предметы
   4. Возможность переходить между сценами
   5. Возможность ловить рыбу
+
+Билд игры: 
+https://github.com/DereKkKkKkK/UnityGame/tree/main/build
