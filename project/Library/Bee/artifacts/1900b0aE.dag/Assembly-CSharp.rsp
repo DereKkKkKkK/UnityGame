@@ -371,6 +371,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Attention.cs"
 "Assets/Canvas.cs"
+"Assets/Continue.cs"
 "Assets/Fishing_Outside.cs"
 "Assets/GoldenFish.cs"
 "Assets/House_Outside.cs"
@@ -380,7 +381,9 @@
 "Assets/movement.cs"
 "Assets/Outside_Fishing.cs"
 "Assets/Outside_House.cs"
+"Assets/Pause.cs"
 "Assets/Pickup.cs"
+"Assets/Quit.cs"
 "Assets/VectorValue.cs"
 -langversion:9.0
 

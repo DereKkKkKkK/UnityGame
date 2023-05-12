@@ -9,6 +9,7 @@ public class IndicatorActivate : MonoBehaviour
     public GameObject Indicator;
     public GameObject Bar;
     public GameObject GoldenFish;
+    public GameObject Text;
     public bool coll;
     public bool bar;
     public bool fish;
@@ -23,6 +24,7 @@ public class IndicatorActivate : MonoBehaviour
     {
         if (other1.CompareTag("Player"))
         {
+            Text.SetActive(true);
             coll = true;
         }
     }
@@ -31,6 +33,7 @@ public class IndicatorActivate : MonoBehaviour
     {
         if (other1.CompareTag("Player"))
         {
+            Text.SetActive(false);
             Indicator.SetActive(false);
             Bar.SetActive(false);
             GoldenFish.SetActive(false);
@@ -44,6 +47,7 @@ public class IndicatorActivate : MonoBehaviour
     {
         if (Input.GetKey(activate) && (coll == true))
         {
+            Text.SetActive(false);
             Indicator.SetActive(true);
             Bar.SetActive(true);
             GoldenFish.SetActive(true);
@@ -52,10 +56,10 @@ public class IndicatorActivate : MonoBehaviour
         if (bar == true)
         {
             i++;
-            speed = 0.001f;
+            speed = 0.005f;
             Bar.transform.position = Vector3.Lerp(startpos1, endpos1, i * speed);
         }
-        if (i > 999)
+        if (i > 199)
         {
             Indicator.SetActive(false);
             Bar.SetActive(false);
